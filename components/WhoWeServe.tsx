@@ -8,7 +8,6 @@ import {
   Zap,
   Tractor,
   Users,
-  Recycle,
   Smartphone,
   Car
 } from 'lucide-react'

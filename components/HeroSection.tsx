@@ -75,7 +75,7 @@ export function HeroSection() {
             className="mb-8"
           >
             <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-              Powering South India's{' '}
+              Powering South India&apos;s{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-yellow-600">
                 Clean Energy Future
               </span>

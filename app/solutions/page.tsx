@@ -140,7 +140,7 @@ export default function SolutionsPage() {
                                     </div>
                                     <div className="lg:w-2/3">
                                         <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm">
-                                            <h3 className="text-xl font-bold text-gray-900 mb-6">What's Included:</h3>
+                                            <h3 className="text-xl font-bold text-gray-900 mb-6">What&apos;s Included:</h3>
                                             <ul className="space-y-4">
                                                 {solution.features.map((feature, idx) => (
                                                     <li key={idx} className="flex items-start">

@@ -3,7 +3,6 @@ import { ContactSection } from '@/components/ContactSection'
 import { Footer } from '@/components/Footer'
 import { WhatsAppButton } from '@/components/WhatsAppButton'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
-import Link from 'next/link'
 
 export default function ContactPage() {
     return (

@@ -3,7 +3,7 @@
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { WhatsAppButton } from '@/components/WhatsAppButton'
-import { MapPin, Zap, Calendar, Building2 } from 'lucide-react'
+import { MapPin, Zap, Building2 } from 'lucide-react'
 import Link from 'next/link'
 import { useState } from 'react'
 
@@ -278,7 +278,7 @@ export default function ProjectsPage() {
                         Want to See Your Project Here?
                     </h2>
                     <p className="text-xl text-white/90 mb-8">
-                        Let's discuss your solar or EV charging project and create another success story together.
+                        Let&apos;s discuss your solar or EV charging project and create another success story together.
                     </p>
                     <Link href="/contact" className="inline-block bg-white text-green-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors">
                         Start Your Project
