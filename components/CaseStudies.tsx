@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import { useState } from 'react'
 import { ChevronLeft, ChevronRight, Play, TrendingUp, Users, Zap } from 'lucide-react'
 
