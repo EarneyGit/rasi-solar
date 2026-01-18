@@ -74,13 +74,13 @@ export function HeroSection() {
             transition={{ duration: 0.8 }}
             className="mb-8"
           >
-            <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
               Powering South India&apos;s{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-yellow-600">
                 Clean Energy Future
               </span>
             </h1>
-            <p className="text-xl lg:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
               Expert EPC solutions for solar power plants (3kW-100MW) and EV charging infrastructure (30kW-240kW) across South India.
             </p>
           </motion.div>
@@ -106,7 +106,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="grid grid-cols-3 gap-8 max-w-2xl mx-auto"
+            className="flex flex-col sm:grid sm:grid-cols-3 gap-6 sm:gap-8 max-w-2xl mx-auto"
           >
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-3">
