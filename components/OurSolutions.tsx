@@ -175,9 +175,9 @@ export function OurSolutions() {
             <p className="mb-6 opacity-90">
               Get a free site assessment and customized proposal for your energy project. Our experts will help you choose the right solution.
             </p>
-            <button className="bg-white text-green-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">
+            <Link href="/contact" className="bg-white text-green-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">
               Request Free Consultation
-            </button>
+            </Link>
           </div>
         </motion.div>
       </div>

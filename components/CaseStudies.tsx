@@ -158,10 +158,10 @@ export function CaseStudies() {
                   </div>
                 </div>
 
-                <button className="bg-green-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-700 transition-colors flex items-center space-x-2">
+                <Link href="/projects" className="bg-green-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-700 transition-colors flex items-center space-x-2">
                   <Play className="w-5 h-5" />
                   <span>View Demo</span>
-                </button>
+                </Link>
               </div>
 
               {/* Visual Side */}
@@ -225,8 +225,8 @@ export function CaseStudies() {
                 key={study.id}
                 onClick={() => setCurrentSlide(index)}
                 className={`p-4 rounded-xl text-left transition-all ${index === currentSlide
-                    ? 'bg-green-50 border-2 border-green-200'
-                    : 'bg-gray-50 hover:bg-gray-100 border-2 border-transparent'
+                  ? 'bg-green-50 border-2 border-green-200'
+                  : 'bg-gray-50 hover:bg-gray-100 border-2 border-transparent'
                   }`}
               >
                 <div className="text-sm font-medium text-gray-900 mb-1">

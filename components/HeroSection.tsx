@@ -196,14 +196,14 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
           >
-            <button className="bg-green-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-green-700 transition-all duration-300 flex items-center space-x-2 shadow-lg hover:shadow-xl">
+            <Link href="/contact" className="bg-green-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-green-700 transition-all duration-300 flex items-center space-x-2 shadow-lg hover:shadow-xl">
               <span>Get Free Consultation</span>
               <ArrowRight className="w-5 h-5" />
-            </button>
-            <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-full text-lg font-semibold hover:border-green-600 hover:text-green-600 transition-all duration-300 flex items-center space-x-2">
+            </Link>
+            <Link href="/projects" className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-full text-lg font-semibold hover:border-green-600 hover:text-green-600 transition-all duration-300 flex items-center space-x-2">
               <Play className="w-5 h-5" />
               <span>View Our Projects</span>
-            </button>
+            </Link>
           </motion.div>
 
           {/* Feature Icons */}

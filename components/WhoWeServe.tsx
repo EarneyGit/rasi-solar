@@ -138,9 +138,9 @@ export function WhoWeServe() {
             <p className="text-gray-600 mb-6">
               We specialize in custom EPC solutions for unique energy projects and hybrid solar-EV installations.
             </p>
-            <button className="bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 transition-colors">
+            <Link href="/contact" className="bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 transition-colors">
               Discuss Your Project
-            </button>
+            </Link>
           </div>
         </motion.div>
       </div>
