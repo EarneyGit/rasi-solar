@@ -57,7 +57,7 @@ export function WhatsAppButton() {
                             </div>
 
                             <p className="text-gray-600 text-sm mb-4">
-                                Have questions about solar installations or EV charging? We're here to help!
+                                Have questions about solar installations or EV charging? We&apos;re here to help!
                             </p>
 
                             <button

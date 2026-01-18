@@ -91,7 +91,7 @@ export default function AboutPage() {
                             </div>
                             <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
                             <p className="text-gray-700 leading-relaxed">
-                                To be South India's most trusted partner for sustainable energy infrastructure, powering
+                                To be South India&apos;s most trusted partner for sustainable energy infrastructure, powering
                                 a cleaner future through innovation, excellence, and unwavering commitment to quality.
                                 We envision a future where every building and vehicle runs on clean, renewable energy.
                             </p>
