@@ -171,7 +171,7 @@ export function HeroSection() {
       </AnimatePresence>
 
       {/* Hero Content */}
-      <div className="relative z-10 flex items-center justify-center min-h-[calc(100vh-100px)] px-6">
+      <div className="relative z-10 flex items-center justify-center min-h-[calc(100vh-100px)] px-6 pt-8 md:pt-0">
         <div className="max-w-6xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -237,7 +237,7 @@ export function HeroSection() {
 
       {/* Scroll Indicator */}
       <motion.div
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10 hidden md:block"
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
       >
