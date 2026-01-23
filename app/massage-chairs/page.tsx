@@ -200,13 +200,15 @@ export default function MassageChairsPage() {
                                         </div>
 
                                         {/* Enquiry Button */}
-                                        <Link
-                                            href={`/contact?product=${encodeURIComponent(chair.name)}`}
+                                        <a
+                                            href={`https://wa.me/917010132135?text=Hi, I'm interested in ${encodeURIComponent(chair.name)} - ${chair.model}`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
                                             className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
                                         >
                                             <ShoppingCart className="w-5 h-5" />
-                                            <span>Enquire Now</span>
-                                        </Link>
+                                            <span>Enquire on WhatsApp</span>
+                                        </a>
                                     </div>
                                 </motion.div>
                             ))}
@@ -225,11 +227,13 @@ export default function MassageChairsPage() {
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <a
-                                href="tel:+917010132135"
+                                href="https://wa.me/917010132135?text=Hi, I need help choosing a massage chair"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors flex items-center justify-center space-x-2"
                             >
                                 <Phone className="w-5 h-5" />
-                                <span>Call: +91 70101 32135</span>
+                                <span>WhatsApp: +91 70101 32135</span>
                             </a>
                             <Link
                                 href="/contact"
